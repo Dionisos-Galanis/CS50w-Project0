@@ -46,17 +46,23 @@ body {
     border-radius: 3px;
 }
 
-.labeladv {
-    width: 300 px;
+#advsrchinps tr {
+    height: 30px;
+}
+
+.label {
+    width: 20%;
+    min-width: 150px;
+}
+
+.advinput {
+    width: 50%;
+    min-width: 180px;
 }
 
 .searchlineadv {
-    width: 300 px;
-}
-
-.searchgroup {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 20px;
+    width: 100%;
 }
 
 .but:hover {
