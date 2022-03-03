@@ -1,0 +1,68 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#upRightLinks {
+    position: absolute;
+    right: 10pt;
+}
+
+#upRightLinks a {
+    color: dodgerblue;
+    border: 20pt;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#searchline {
+    height: 40px;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid rgb(218, 217, 217);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+.but {
+    height: 40px;
+    padding-left:20px;    
+    padding-right:20px;
+    border-style: none;
+    background-color: rgb(247, 247, 247);
+    font-size: medium;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.labeladv {
+    width: 300 px;
+}
+
+.searchlineadv {
+    width: 300 px;
+}
+
+.searchgroup {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.but:hover {
+    box-shadow: 0px 0px 2px;
+}
+
+#searchline:hover, #searchline:focus, #searchline:focus-within {
+    box-shadow: 1px 1px 3px #bdbdbd;
+}

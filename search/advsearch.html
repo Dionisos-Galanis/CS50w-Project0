@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="upRightLinks">
+            <a href="index.html">Google search</a>
+        </div>
+        <div class="center">
+            <img class="center" src="GoogleImg.png">
+        </div>
+        <form action="https://google.com/search">
+            <div>
+                <div class="searchgroup">
+                    <div class="inline">
+                        <label class="labeladv" for="as_q">All these words:</label>
+                        <input class="searchlineadv" id="as_q" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="searchgroup">
+                    <div class="inline">
+                        <label class="labeladv" for="as_epq">This exact word or phrase:</label>
+                        <input class="searchlineadv" id="as_epq" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="searchgroup">
+                    <div class="inline">
+                        <label class="labeladv" for="as_oq">Any of these words:</label>
+                        <input class="searchlineadv" id="as_oq" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="searchgroup">
+                    <div class="inline">
+                        <label class="labeladv" style="width: 400px;" for="as_eq">None of these words:</label>
+                        <input class="searchlineadv" id="as_eq" type="text" name="as_eq">
+                    </div> 
+                </div>
+            </div>
+            <div class="center">
+                <div class="inline">
+                    <input class="but" id="IS" type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
