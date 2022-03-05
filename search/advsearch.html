@@ -6,14 +6,22 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="lucorner">
+            <img src="GoogleAS.png">
+        </div>
         <div id="upRightLinks">
             <a href="index.html">Google search</a>
         </div>
-        <div class="center">
-            <img class="center" src="GoogleImg.png">
-        </div>
+        <h1 id="advsh">Advanced search</h1>
+        <hr>
         <form action="https://google.com/search">
             <table id="advsrchinps">
+                <thead>
+                    <td class="label">
+                        <h2 id="AShead">Find pages, conataining...</h2>
+                    </td>
+                    <td class="advinput"></td>
+                </thead>
                 <tbody>
                     <tr>
                         <td class="label">
@@ -51,7 +59,7 @@
             </table>
             <div class="center">
                 <div class="inline">
-                    <input class="but" id="IS" type="submit" value="Advanced Search">
+                    <input class="but" id="AS" type="submit" value="Advanced Search">
                 </div>
             </div>
         </form>

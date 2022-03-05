@@ -5,6 +5,7 @@ body {
 #upRightLinks {
     position: absolute;
     right: 10pt;
+    top: 10pt;
 }
 
 #upRightLinks a {
@@ -21,6 +22,12 @@ body {
     margin-bottom: 20px;
 }
 
+.lucorner {
+    position: absolute;
+    left: 0pt;
+    top: 0pt;
+}
+
 #searchline {
     height: 40px;
     width: 40%;
@@ -28,6 +35,23 @@ body {
     border: 1px solid rgb(218, 217, 217);
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#searchline:hover {
+    box-shadow: 1px 1px 3px #bdbdbd;
+}
+
+#searchline:focus, #searchline:focus-within {
+    outline: none;
+}
+
+.searchlineadv:hover {
+    box-shadow: 1px #bdbdbd;
+}
+
+.searchlineadv:focus, .searchlineadv:focus-within {
+    outline: 1px solid dodgerblue;
+    /* color: dodgerblue; */
 }
 
 .inline {
@@ -46,13 +70,32 @@ body {
     border-radius: 3px;
 }
 
-#advsrchinps tr {
+#AS {
+    background-color:dodgerblue;
+    color: white;
     height: 30px;
+}
+
+#advsrchinps, #advsh {
+    margin-left: 45px;
+}
+
+#advsrchinps tr {
+    height: 40px;
 }
 
 .label {
     width: 20%;
     min-width: 150px;
+}
+
+.labeladv {
+    font-size: 13px;
+}
+
+#AShead {
+    font-size: 16px;
+    font-weight:lighter;
 }
 
 .advinput {
@@ -61,14 +104,23 @@ body {
 }
 
 .searchlineadv {
-    height: 20px;
+    height: 25px;
     width: 100%;
+    border: 1px solid rgb(218, 217, 217);
+    /* font-size: 13px; */
 }
 
 .but:hover {
     box-shadow: 0px 0px 2px;
 }
 
-#searchline:hover, #searchline:focus, #searchline:focus-within {
-    box-shadow: 1px 1px 3px #bdbdbd;
+#advsh {
+    color:#d93025;
+    font-size: 20px;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+hr {
+    border: 1px solid #ebebeb;
 }
